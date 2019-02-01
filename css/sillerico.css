@@ -1,6 +1,37 @@
+.navbarlink {
+    background: #FFF;
+    border: 0.1em solid #FFF;
+    border-radius: 0.25em;
+    color: #1A5831;
+    display: block;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    padding: 0.5em;
+    -ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.navbarlink:hover {
+    background:#1A5831;
+    border: 0.1em dashed #1A5831;
+    border-radius: 0.5em;
+    color: #FFF;
+    -ms-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+
+
 
 #header img{
-    width: 175px;
+    width: 170px;
 }
 
 #main .carousel-inner img{
@@ -12,6 +43,7 @@
 #footer{
     background: #1A5831;
     color: #fff;
+   font-family:  'Satisfy', cursive
 }
 
 #footer a{
